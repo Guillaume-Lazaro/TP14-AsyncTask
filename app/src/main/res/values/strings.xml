@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP14-AsyncTask</string>
+    <string name="go">GO</string>
+    <string name="progressbar">AsyncTask - ProgressBar :</string>
+    <string name="stop">stop</string>
+</resources>
+
