@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setProgress(values[0]);
             Calendar cal = Calendar.getInstance();
 
-            //"Calcul" du lag
+            //Calcul du "lag"
             long lag = (cal.getTimeInMillis()-oldTime)-300;
             Log.d("Trace","progression = "+values[0]+" / "+MAX_PROGRESSION + " le lag est de "+ lag + "ms");
             oldTime = cal.getTimeInMillis();
